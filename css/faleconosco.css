@@ -1,0 +1,93 @@
+#contact {
+    background-color: #FF0077;
+    color: #ffffff;
+    padding: 38px 18px;
+}
+
+/* main */
+
+main {
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.div-main {
+    display: flex;
+}
+
+main h2 {
+    color: #1a2138;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.form-control {
+    width: 100%;
+    min-height: 30px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #85858590;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    border: 1px solid #85858590;
+    outline: none !important;
+    box-shadow: 0 0 3px 2px #ffd8ea;
+}
+
+.form {
+    color: #858585;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+.form select {
+    background-color: #ffffff;
+}
+
+.btn-enviar {
+    background-color: #FF0077;
+    border: none;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    color: #ffd8ea;
+}
+
+.contato {
+    width: 30%;
+    margin-left: 3%;
+}
+
+.contato label {
+    color: #858585;
+    margin-bottom: 20px;
+}
+
+.contato a,
+.contato address {
+    color: #FF0077;
+    text-decoration: none;
+}
+
+.contato-divs {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,51 @@
+::-webkit-scrollbar-track {
+    background-color: #858585;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #858585;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF0077;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.logo {
+    width: auto;
+    max-width: 300px;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    height: 100px;
+    z-index: 1;
+    box-shadow: 0px 0px 9px 3px rgba(41, 41, 41, .25);
+}
+
+.opcoes-menu a {
+    color: #1a2138;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    margin: 10px;
+}
+
+.opcoes-menu a:hover {
+    color: #FF0077;
+}
