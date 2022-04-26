@@ -1,4 +1,4 @@
-<img src="logo-colored.svg" alt="My cool logo" width="300px" height="300px"/>
+<img src="/assets/logo-colored.svg" alt="My cool logo" width="300px" height="300px"/>
 
 Site developed in the Crie_TI class for HTML/CSS practice.
 
