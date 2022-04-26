@@ -1,4 +1,4 @@
-<a href="https://177.44.248.62/petshop"><img src="/assets/logo-colored.svg" alt="My cool logo" width="150px"/></a>
+<a href="https://177.44.248.62/petshop" target="_blank"><img src="/assets/logo-colored.svg" alt="My cool logo" width="150px"/></a>
 
 <hr>
 
