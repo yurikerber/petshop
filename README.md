@@ -1,4 +1,4 @@
-<img src="/assets/logo-colored.svg" alt="My cool logo" width="150px"/>
+<a href="https://google.com/"><img src="/assets/logo-colored.svg" alt="My cool logo" width="150px"/></a>
 
 <hr>
 
