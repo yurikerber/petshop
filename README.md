@@ -4,6 +4,8 @@
 
 Site developed in the Crie_TI class for HTML/CSS practice.
 
+When the clone was made it is necessary to change the name of the root directory from "<b>pet-shop</b>" to "<b>petshop</b>" to avoid problems with the images.
+
 <hr>
 
 <img src="printOfWebsite.png" alt="My cool logo"/>
