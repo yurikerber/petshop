@@ -2,6 +2,6 @@
 
 Site developed in the Crie_TI class for HTML/CSS practice.
 
-[Screenshot](printOfWebsite.png)
+<img src="printOfWebsite.png" alt="My cool logo"/>
 
 2022 © pet&shop - Crie_TI
