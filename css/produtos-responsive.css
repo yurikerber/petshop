@@ -1,0 +1,30 @@
+.column {
+    width: 46%;
+    display: inline-grid;
+    padding: 1% 1%;
+    text-align: center;
+    vertical-align: top;
+    height: auto;
+    justify-items: center;
+    height: 300px;
+}
+
+main {
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+
+#products {
+    background-color: #FF0077;
+    color: #ffffff;
+    padding: 8px 18px;
+}
+
+#products {
+    background-color: #ff0077;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px;
+}

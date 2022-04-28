@@ -1,5 +1,10 @@
 /* FOOTER */
 
+.social-container {
+    display: flex;
+    justify-content: center;
+}
+
 footer {
     background-color: #FF0077;
     padding-top: 50px;

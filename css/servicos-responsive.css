@@ -1,0 +1,127 @@
+#services {
+    background-color: #ff0077;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.services-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.services-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.services-txt-1 {
+    margin: 2% 10%;
+    font-weight: 400;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.services-txt-2 {
+    padding: 2% 10%;
+    font-weight: 400;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FF0077;
+    text-align: left;
+    color: #ffffff;
+}
+
+.services-txt-3 {
+    padding: 2% 10%;
+    font-weight: 400;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0077ff;
+    text-align: left;
+    color: #ffffff;
+}
+
+.services-txt-4 {
+    padding: 2% 10%;
+    font-weight: 400;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FF320D;
+    text-align: left;
+    color: #ffffff;
+}
+
+.services-txt-5 {
+    padding: 2% 10%;
+    font-weight: 400;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #C10DFF;
+    text-align: left;
+    color: #ffffff;
+}
+
+.services-txt-6 {
+    padding: 2% 10%;
+    font-weight: 400;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #6cf515;
+    text-align: left;
+    color: #ffffff;
+}
+
+.services-right {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+
+.services-txt-7 {
+    padding: 2%;
+    font-weight: 400;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #382c32;
+}
+
+.services-txt-7 {
+    padding: 2% 10%;
+    font-weight: 400;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #382c32;
+}
+
+.services-img-7 {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    max-width: 100%;
+    object-position: 50% 90%;
+}
+
+main {
+    margin-top: 50px;
+}

@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="/petshop/css/servicos.css">
     <link rel="stylesheet" href="/petshop/css/footer.css">
     <link rel="stylesheet" href="/petshop/css/header.css">
+    <!-- responsive -->
+    <link rel="stylesheet" media="(max-width: 480px)" href="css/servicos-responsive.css" />
+    <link rel="stylesheet" media="(max-width: 480px)" href="css/header-responsive.css" />
+    <link rel="stylesheet" media="(max-width: 480px)" href="css/footer-responsive.css" />
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,800;1,400&display=swap"
@@ -18,6 +23,23 @@
 
 <body>
     <header>
+        <div class="hamburger-container">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger">
+                <div></div>
+            </div>
+            <div class="menu">
+                <div>
+                    <ul>
+                        <a id="home" href="index.html">Home</a>
+                        <a id="about" href="sobre.html">Sobre</a>
+                        <a id="products" href="produtos.html">Produtos</a>
+                        <a id="services" href="servicos.html">Serviços</a>
+                        <a id="contact" href="faleconosco.html">Fale conosco</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <img src="/petshop/assets/logo-colored.svg" alt="logo pet&shop" class="logo">
         <nav class="opcoes-menu">
             <a id="home" href="index.html">Home</a>
@@ -118,7 +140,7 @@
     </main>
 
     <footer id="footer">
-        <div>
+        <div class="logo-footer">
             <img src="/petshop/assets/logo-white.svg" alt="logo pet&shop" class="logo-footer">
         </div>
         <div class="footer-container">
@@ -143,17 +165,17 @@
             </div>
             <div class="right-footer">
                 <h4>Siga-nos</h4>
-                <section>
-                    <a href="https://google.com/search" target="blank"><img src="/petshop/assets/Logos Sociais/facebook.svg"
-                            alt="facebook" class="social-logos"></a>
-                    <a href="https://google.com/search" target="blank"><img src="/petshop/assets/Logos Sociais/instagram.svg"
-                            alt="instagram" class="social-logos"></a>
-                    <a href="https://google.com/search" target="blank"><img src="/petshop/assets/Logos Sociais/tiktok.svg"
-                            alt="tik-tok" class="social-logos"></a>
-                    <a href="https://google.com/search" target="blank"><img src="/petshop/assets/Logos Sociais/twitter.svg"
-                            alt="twitter" class="social-logos"></a>
-                    <a href="https://google.com/search" target="blank"><img src="/petshop/assets/Logos Sociais/youtube.svg"
-                            alt="youtube" class="social-logos"></a>
+                <section class="social-container" style="display: flex;justify-content: center;">
+                    <a href="https://google.com/search" target="blank"><img
+                            src="/petshop/assets/Logos Sociais/facebook.svg" alt="facebook" class="social-logos"></a>
+                    <a href="https://google.com/search" target="blank"><img
+                            src="/petshop/assets/Logos Sociais/instagram.svg" alt="instagram" class="social-logos"></a>
+                    <a href="https://google.com/search" target="blank"><img
+                            src="/petshop/assets/Logos Sociais/tiktok.svg" alt="tik-tok" class="social-logos"></a>
+                    <a href="https://google.com/search" target="blank"><img
+                            src="/petshop/assets/Logos Sociais/twitter.svg" alt="twitter" class="social-logos"></a>
+                    <a href="https://google.com/search" target="blank"><img
+                            src="/petshop/assets/Logos Sociais/youtube.svg" alt="youtube" class="social-logos"></a>
                 </section>
             </div>
         </div>
