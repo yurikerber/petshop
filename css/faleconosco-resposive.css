@@ -1,3 +1,7 @@
+.hamburger-container {
+    display: none;
+}
+
 .div-main {
     display: flex;
     flex-direction: column;

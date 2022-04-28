@@ -16,6 +16,10 @@ body {
     margin: 0;
 }
 
+.hamburger-container {
+    display: none;
+}
+
 .logo {
     width: auto;
     max-width: 300px;
